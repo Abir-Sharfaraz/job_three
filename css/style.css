@@ -1,0 +1,996 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    margin-top: 0px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
+
+/* Header */
+header{
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 30px 0px;
+}
+.logo{
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+}
+.logo img{
+    width: 36%;
+    margin-left: 50px;
+}
+.navbar{
+    width: 70%;
+    /* box-sizing: border-box; */
+    float: left;
+    text-align: center;
+    padding-top: 13px;
+}
+.navbar ul{
+    /* float: right; */
+}
+.navbar ul li{
+    display: inline-block;
+    /* float: right; */
+}
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+    /* display: inline-block; */
+    padding: 28px;
+    display: block;
+    /* border-radius: 45px; */
+    padding: 12px 21px;
+    font-size: 19px;
+    text-align: center;
+    transition: all .4s;
+}
+
+.reservation-btn{
+    
+    /* color: white; */
+}
+
+.navbar ul li a span {
+    background: red;
+    border-radius: 45px;
+    padding: 9px 27px;
+    color:#f4f4f4;
+    transition: all .4s;
+}
+.navbar ul li a:hover{
+    color: red;
+}
+
+.navbar ul li a span:hover {
+    color: white;
+    background: #097511;
+}
+
+
+
+
+/* Banner Section 1*/
+.banner-section{
+    max-width: 100%;
+    /* height: 368px; */
+    /* padding: 300px; */
+    background-image: url("../images/banarback.jpg");
+}
+.section1-content{
+    width: 40%;
+    margin: 0 auto;
+    padding: 131px 0px 40px 0px;
+}
+.section1-content h3{
+    font-size: 48px;
+    line-height: 0.5;
+    text-align: center;
+    color: #ff0000;
+    font-weight: 900;
+}
+.section1-content h1{
+    font-size: 68px;
+    line-height: 1.5;
+    text-align: center;
+    color: #2af707;
+}
+.section1-content p{
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #000000;
+}
+.section1-buttons{
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 129px;
+}
+.section1-buttons ul{
+    list-style: none;
+    /* display: inline-block; */
+    text-align: center;
+}
+.section1-buttons ul li{
+    display: inline-block;
+    padding: 0px 30px 0px 30px;
+}
+.section1-buttons ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    background-color: #ffffff00;
+    color: white;
+    border: 2px solid #ffffff;
+    border-radius: 23px;
+    padding: 11px 18px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all .4s;
+
+}
+
+.section1-buttons ul li a:hover{
+    
+background: #ec0a0a;
+    
+color: white;
+}
+/* Reservation Section 2*/
+.reservations-section{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-top: 77px;
+    padding-bottom: 78px;
+}
+.logo2ndcontent{
+    max-width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+}
+.section2-logo{
+    max-width: 33.33%;
+    /* margin-left: 140px; */
+}
+.section2-logo img{}
+.section2-content{}
+.section2-content h3{text-transform: uppercase;letter-spacing: 4px;font-size: 30px;padding: 10px 0px;color: #20e20b;margin-top: 40px;}
+.p1{font-size: 20px;font-weight: 600;line-height: 1.5;color: #f40307;}
+.p2{
+    line-height: 1.5;
+}
+.section2-button{}
+.section2-button li {
+    list-style: none;
+    padding-top: 30px;
+    /* padding-left: 53px; */
+    text-align: center;
+}
+.section2-button li a{
+    text-decoration: none;
+    background-color: #ffffff00;
+    color: #ff0000;
+    border: 2px solid #ff0000;
+    border-radius: 23px;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all .4s;
+}
+
+.section2-button li a:hover{
+    background-color: #10ff00;
+    color: white;
+}
+.section2-pic1{
+    float: left;
+    padding: 0px 13px 0px 15px;
+    box-sizing: border-box;
+    width: 33.33%;
+}
+.section2-pic1 img{
+    /* height: 100%; */
+}
+
+/* Sponsor Section 3*/
+.sponsor-section{
+    padding-bottom: 40px;
+}
+.sponsor-section ul{
+    text-align: center;
+}
+.sponsor-section ul li{
+    /* text-decoration: none; */
+    display: inline-block;
+    padding: 0px 48px;
+}
+.sponsor-section ul li img{
+    text-decoration: none;
+    text-align: center;
+}
+
+/*Banner2 */
+.banner2{
+    background-image: url("../images/banner2.jpg");
+}
+.banner2content{
+    width: 50%;
+    /* height: 570px; */
+    padding-bottom: 0;
+    margin: 0px auto;
+    padding: 205px 0px 176px 0px;
+    text-align: center;
+}
+.banner2content h1{
+    color: #ff9b00;
+    font-size: 65px;
+    padding-bottom: 20px;
+}
+.banner2content h3{
+    color: white;
+    font-size: 41px;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+.banner2content h6{
+    color: #cccccc;
+    font-weight: 100;
+    font-size: 17px;
+    line-height: 1.5;
+    padding-top: 9px;
+}
+
+
+/* FoodPricing Section 4*/
+.price{  background-image: url("../images/backplate.jpg");
+    padding-top: 87px;
+}
+.col2{
+    width: 75%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0px 0px 45px 0px;
+}
+.contentandimage{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.foodcontent{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.foodcontent h1{
+    font-size: 30px;
+}
+.foodcontent h3{
+    font-size: 31px;
+    padding: 5px 0px;
+    color: #db9324;
+}
+.foodcontent p{
+    font-size: 17px;
+    line-height: 1.5;
+    color: #177102;
+}
+.foodimage{
+    width: 50%;
+    float: left;
+}
+.foodimage img{}
+
+
+
+
+/*Banner 3*/
+.banner3{
+     background-image: url("../images/backhappy.jpg");
+     /* top: -79px; */
+}
+.banner3image{
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 144px 0px 35px 0px;
+}
+.banner3image img{
+    width: 34%;
+    margin-left: 223px;
+}
+.banner3content{width: 50%;margin: 0 auto;}
+.banner3content h1{
+    color: white;
+    font-size: 29px;
+    text-align: center;
+    padding: 10px 0px;
+}
+.banner3content h2{
+    color: #dc9529;
+    font-size: 58px;
+    text-align: center;
+    padding: 10px 0px;
+}
+.banner3content p{
+    color: white;
+    text-align: center;
+    font-size: 21px;
+    padding: 29px 0px 40px 0px;
+}
+.banner3button{
+    padding-bottom: 53px;
+}
+.banner3button a{color: white;width: 20%;margin: 0 auto;display: block;text-align: center;text-decoration: none;background-color: #ffffff00;color: #db9324;border: 2px solid #db9324;border-radius: 23px;padding: 10px 0px;font-size: 16px;font-weight: 600;transition: all .4s;}
+.banner3button a:hover{
+    background: #dc9529;
+    color: white;
+}
+
+/*Love food*/
+.lovefood{}
+.lovefood1{}
+.lovefood1 h1{}
+.lovefood2{}
+.lovefood2 img{}
+.lovefood3{}
+.lovefood3 h1{}
+.lovefoodparagraph{}
+.lovefoodparagraph p{}
+
+/*User rating*/
+.userrating{
+    overflow: hidden;
+    padding: 49px 0px;
+}
+.userratingblock{
+    float: left;
+    /* overflow: hidden; */
+    width: 25%;
+    box-sizing: border-box;
+    padding-right: 50px;
+}
+.userpic{}
+.userpic img{
+    /* text-align: center; */
+    /* margin: auto; */
+    padding-left: 30%;
+}
+
+.usercontent{}
+.usercontent h3{
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: center;
+}
+.usercontent h6{
+    font-size: 20px;
+    font-weight: 100;
+    padding-top: 13px;
+    text-align: center;
+    color: #777;
+}
+
+/*Banner 4*/
+.banner4{background-image: url("../images/template5.png");}
+.banner4 h1{
+    color: white;
+    font-size: 82px;
+    text-align: center;
+    padding-top: 101px;
+    padding-bottom: 44px;
+}
+.banner4 p {
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    width: 50%;
+    font-size: 23px;
+}
+.divbanner4-button a {
+    color: white;
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffffff00;
+    color: #db9324;
+    border: 2px solid #db9324;
+    border-radius: 23px;
+    padding: 10px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all .4s;
+    /* display: inline-block; */
+}
+
+.divbanner4-button a:hover{
+    background: #37368e;
+    color: white;
+}
+.divbanner4-call{
+    width: 50%;
+    margin: 0 auto;
+}
+.divbanner4-call h2{
+    color: white;
+    text-align: center;
+    font-size: 29px;
+}
+
+.divbanner4-h1{}
+.divbanner4-paragraph{
+    padding-bottom: 57px;
+}
+.divbanner4-button{
+    padding-bottom: 46px;
+}
+
+.socialmedia{
+    padding-bottom: 111px;
+}
+.socialmedia ul{
+    text-align: center;
+    padding-top: 51px;
+}
+.socialmedia ul li{
+    display: inline-block;
+    text-align: center;
+    padding: 0px 20px;
+}
+.socialmedia ul li i{
+    color: white;
+    display: inline-block;
+    border: 4px dotted white;
+    padding: 14px;
+    text-align: center;
+    border-radius: 30px;
+    transition: all 0.6s;
+}
+
+.socialmedia ul li i:hover{
+    background: #ffffff;
+    color: black;
+    border-color: black;
+}
+.socialmedia ul li a{}
+
+
+
+
+/*Footer*/
+.footer{
+    padding: 15px 0px;
+    background: #656565;
+}
+
+
+
+.footer p{
+    text-align: center;
+    font-size: 28px;
+    color: white;
+}
+
+
+
+/*            Responsiveness         */
+@media only screen and (max-width: 1290px){
+    .section1-buttons ul li a {
+        font-size: 15px; }
+}
+
+
+@media only screen and (max-width: 1000px){
+    .section1-buttons ul li {
+    
+    padding: 30px 30px 0px 30px; }
+}
+
+
+
+@media only screen and (max-width: 1200px){
+.navbar ul li a {padding: 12px 6px;}
+
+
+}
+
+
+@media only screen and (max-width: 1130px){
+.section1-buttons ul li a {    padding: 11px 10px;}
+
+
+}
+
+
+@media only screen and (max-width: 720px){
+    .section1-content p {
+    font-size: 25px;}
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    margin-top: 0px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
+
+/* Header */
+header{
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 30px 0px;
+}
+.logo{
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+}
+.logo img{
+    width: 36%;
+    margin-left: 50px;
+}
+.navbar{
+    width: 70%;
+    /* box-sizing: border-box; */
+    float: left;
+    text-align: center;
+    padding-top: 13px;
+}
+.navbar ul{
+    /* float: right; */
+}
+.navbar ul li{
+    display: inline-block;
+    /* float: right; */
+}
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+    /* display: inline-block; */
+    padding: 28px;
+    display: block;
+    /* border-radius: 45px; */
+    padding: 12px 21px;
+    font-size: 19px;
+    text-align: center;
+    transition: all .4s;
+}
+
+.reservation-btn{
+    
+    /* color: white; */
+}
+
+.navbar ul li a span {
+    background: red;
+    border-radius: 45px;
+    padding: 9px 27px;
+    color:#f4f4f4;
+    transition: all .4s;
+}
+.navbar ul li a:hover{
+    color: red;
+}
+
+.navbar ul li a span:hover {
+    color: white;
+    background: #097511;
+}
+
+
+
+
+/* Banner Section 1*/
+.banner-section{
+    max-width: 100%;
+    /* height: 368px; */
+    /* padding: 300px; */
+    background-image: url("../images/banarback.jpg");
+}
+.section1-content{
+    width: 40%;
+    margin: 0 auto;
+    padding: 131px 0px 40px 0px;
+}
+.section1-content h3{
+    font-size: 48px;
+    line-height: 0.5;
+    text-align: center;
+    color: #ff0000;
+    font-weight: 900;
+}
+.section1-content h1{
+    font-size: 68px;
+    line-height: 1.5;
+    text-align: center;
+    color: #183d75;
+}
+.section1-content p{
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: center;
+    color: #000000;
+}
+.section1-buttons{
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 129px;
+}
+.section1-buttons ul{
+    list-style: none;
+    /* display: inline-block; */
+    text-align: center;
+}
+.section1-buttons ul li{
+    display: inline-block;
+    padding: 0px 30px 0px 30px;
+}
+.section1-buttons ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    background-color: #ffffff00;
+    color: white;
+    border: 2px solid #ffffff;
+    border-radius: 23px;
+    padding: 11px 18px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all .4s;
+
+}
+
+.section1-buttons ul li a:hover{
+    
+background: #ec0a0a;
+    
+color: white;
+}
+/* Reservation Section 2*/
+.reservations-section{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-top: 77px;
+    padding-bottom: 78px;
+}
+.logo2ndcontent{
+    max-width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+}
+.section2-logo{
+    max-width: 33.33%;
+    /* margin-left: 140px; */
+}
+.section2-logo img{}
+.section2-content{}
+.section2-content h3{text-transform: uppercase;letter-spacing: 4px;font-size: 30px;padding: 10px 0px;color: #20e20b;margin-top: 40px;}
+.p1{font-size: 20px;font-weight: 600;line-height: 1.5;color: #f40307;}
+.p2{
+    line-height: 1.5;
+}
+.section2-button{}
+.section2-button li {
+    list-style: none;
+    padding-top: 30px;
+    /* padding-left: 53px; */
+    text-align: center;
+}
+.section2-button li a{
+    text-decoration: none;
+    background-color: #ffffff00;
+    color: #ff0000;
+    border: 2px solid #ff0000;
+    border-radius: 23px;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all .4s;
+}
+
+.section2-button li a:hover{
+    background-color: #10ff00;
+    color: white;
+}
+.section2-pic1{
+    float: left;
+    padding: 0px 13px 0px 15px;
+    box-sizing: border-box;
+    width: 33.33%;
+}
+.section2-pic1 img{
+    /* height: 100%; */
+}
+
+/* Sponsor Section 3*/
+.sponsor-section{
+    padding-bottom: 40px;
+}
+.sponsor-section ul{
+    text-align: center;
+}
+.sponsor-section ul li{
+    /* text-decoration: none; */
+    display: inline-block;
+    padding: 0px 48px;
+}
+.sponsor-section ul li img{
+    text-decoration: none;
+    text-align: center;
+    width: 130px;
+}
+
+/*Banner2 */
+.banner2{
+    background-image: url("../images/banner2.jpg");
+}
+.banner2content{
+    width: 50%;
+    /* height: 570px; */
+    padding-bottom: 0;
+    margin: 0px auto;
+    padding: 205px 0px 176px 0px;
+    text-align: center;
+    background-image: burlywood;
+}
+.banner2content h1{
+    color: #ff0000;
+    font-size: 65px;
+    padding-bottom: 20px;
+}
+.banner2content h3{
+    color: #000000;
+    font-size: 41px;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+.banner2content h6{
+    color: #000000;
+    font-weight: 100;
+    font-size: 17px;
+    line-height: 1.5;
+    padding-top: 9px;
+}
+
+
+/* FoodPricing Section 4*/
+.price{
+    padding-top: 87px;
+}
+.col2{
+    width: 75%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0px 0px 45px 0px;
+}
+.contentandimage{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.foodcontent{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.foodcontent h1{
+    font-size: 30px;
+    color: #177102;
+}
+.foodcontent h3{
+    font-size: 31px;
+    padding: 5px 0px;
+    color: #ff0000;
+}
+.foodcontent p{
+    font-size: 17px;
+    line-height: 1.5;
+}
+.foodimage{
+    width: 50%;
+    float: left;
+}
+.foodimage img{}
+
+
+
+
+/*Banner 3*/
+.banner3{
+     background-image: url("../images/backhappy.jpg");
+     /* top: -79px; */
+}
+.banner3image{
+    /* max-width: 50%; */
+    /* margin: 0 auto; */
+    /* padding: 144px 0px 35px 0px; */
+}
+.banner3image img{}
+.banner3content{width: 50%;margin: 0 auto;}
+.banner3content h1{
+    color: #000000;
+    font-size: 43px;
+    text-align: center;
+    padding: 10px 0px;
+}
+.banner3content h2{
+    color: #ff0000;
+    font-size: 58px;
+    text-align: center;
+    padding: 10px 0px;
+}
+.banner3content p{
+    color: #ff3b00;
+    text-align: center;
+    font-size: 32px;
+    padding: 29px 0px 40px 0px;
+    font-weight: 900;
+}
+.banner3button{
+    padding-bottom: 53px;
+}
+.banner3button a{color: white;width: 20%;margin: 0 auto;display: block;text-align: center;text-decoration: none;background-color: #ffffff00;color: #000807;border: 2px solid #4024db;border-radius: 23px;padding: 10px 0px;font-size: 16px;font-weight: 600;transition: all .4s;}
+.banner3button a:hover{
+    background: #177102;
+    color: #f4f4f4;
+}
+
+/*Love food*/
+.lovefood{}
+.lovefood1{}
+.lovefood1 h1{}
+.lovefood2{}
+.lovefood2 img{}
+.lovefood3{}
+.lovefood3 h1{}
+.lovefoodparagraph{}
+.lovefoodparagraph p{}
+
+/*User rating*/
+.userrating{
+    overflow: hidden;
+    padding: 49px 0px;
+}
+.userratingblock{
+    float: left;
+    /* overflow: hidden; */
+    width: 25%;
+    box-sizing: border-box;
+    padding-right: 50px;
+}
+.userpic{}
+.userpic img{
+    /* text-align: center; */
+    /* margin: auto; */
+    padding-left: 30%;
+    max-width: 92px;
+}
+
+.usercontent{}
+.usercontent h3{
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: center;
+    color: #0520e0f2;
+}
+.usercontent h6{
+    font-size: 20px;
+    font-weight: 100;
+    padding-top: 13px;
+    text-align: center;
+    color: #000000;
+}
+
+/*Banner 4*/
+.banner4{background-image: url("../images/foot.jpg");}
+.banner4 h1{
+    color: #ff0000;
+    font-size: 82px;
+    text-align: center;
+    padding-top: 101px;
+    padding-bottom: 44px;
+}
+.banner4 p {
+    margin: 0 auto;
+    color: #290c0c;
+    text-align: center;
+    width: 50%;
+    font-size: 23px;
+    font-weight: 900;
+}
+.divbanner4-button a {
+    color: white;
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #821c1c00;
+    color: #151414;
+    border: 2px solid #f40307;
+    border-radius: 23px;
+    padding: 10px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    /* transition: all .4s; */
+    /* display: inline-block; */
+}
+
+.divbanner4-button a:hover{
+    background: #f70707;
+    color: white;
+}
+.divbanner4-call{
+    width: 50%;
+    margin: 0 auto;
+}
+.divbanner4-call h2{
+    color: #0008ff;
+    text-align: center;
+    font-size: 29px;
+}
+
+.divbanner4-h1{}
+.divbanner4-paragraph{
+    padding-bottom: 57px;
+}
+.divbanner4-button{
+    padding-bottom: 46px;
+}
+
+.socialmedia{
+    padding-bottom: 89px;
+}
+.socialmedia ul{
+    text-align: center;
+    padding-top: 51px;
+}
+.socialmedia ul li{
+    display: inline-block;
+    text-align: center;
+    padding: 0px 0px;
+}
+.socialmedia ul li i{
+    color: #0846b7;
+    display: inline-block;
+    border: 14px circle red;
+    padding: 14px;
+    text-align: center;
+    border-radius: 14px;
+    transition: all 0.6s;
+}
+
+.socialmedia ul li i:hover{
+    background: #ffffff;
+    color: black;
+    border-color: black;
+}
+.socialmedia ul li a{
+    color: #0000ee;
+}
+
+
+
+
